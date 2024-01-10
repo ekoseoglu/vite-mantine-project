@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /*BASES*/
+  --theme-base-body: #f2f2f7;
+  --theme-base-box: #ffffff;
+  --theme-base-border: #e9ebec;
+  --theme-base-hover: #0000000C;
+  /*BASES*/
+
+  /*COLORS*/
+  /*primary*/
+  --theme-primary-100: #8a99e7;
+  --theme-primary-200: #7788e3;
+  --theme-primary-300: #6377df;
+  --theme-primary-400: #5066db;
+  --theme-primary: #3c55d7;
+  --theme-primary-600: #364dc2;
+  --theme-primary-700: #3044ac;
+  --theme-primary-800: #2a3b97;
+  --theme-primary-900: #243381;
+  /*primary*/
+
+  /*secondary*/
+  --theme-secondary-100: #b381ec;
+  --theme-secondary-200: #a66ce9;
+  --theme-secondary-300: #9957e6;
+  --theme-secondary-400: #8d42e3;
+  --theme-secondary: #802de0;
+  --theme-secondary-600: #7329ca;
+  --theme-secondary-700: #6624b3;
+  --theme-secondary-800: #5a1f9d;
+  --theme-secondary-900: #4d1b86;
+  /*secondary*/
+
+  /*accent*/
+  --theme-accent-100: #ff9a7a;
+  --theme-accent-200: #ff8964;
+  --theme-accent-300: #ff794e;
+  --theme-accent-400: #ff6838;
+  --theme-accent: #ff5722;
+  --theme-accent-600: #e64e1f;
+  --theme-accent-700: #cc461b;
+  --theme-accent-800: #b33d18;
+  --theme-accent-900: #993414;
+  /*accent*/
+
+  /*info*/
+  --theme-info-100: #7ac0f8;
+  --theme-info-200: #64b6f7;
+  --theme-info-300: #4dabf5;
+  --theme-info-400: #37a1f4;
+  --theme-info: #2196f3;
+  --theme-info-600: #1e87db;
+  --theme-info-700: #1a78c2;
+  --theme-info-800: #1769aa;
+  --theme-info-900: #145a92;
+  /*info*/
+
+  /*success*/
+  --theme-success-100: #66cd99;
+  --theme-success-200: #4dc488;
+  --theme-success-300: #33bc77;
+  --theme-success-400: #1ab366;
+  --theme-success: #019147;
+  --theme-success-600: #009a4d;
+  --theme-success-700: #008944;
+  --theme-success-800: #00783b;
+  --theme-success-900: #006733;
+  /*success*/
+
+  /*warning*/
+  --theme-warning-100: #ffc166;
+  --theme-warning-200: #ffb74d;
+  --theme-warning-300: #ffad33;
+  --theme-warning-400: #ffa21a;
+  --theme-warning: #ff9800;
+  --theme-warning-600: #e68900;
+  --theme-warning-700: #cc7a00;
+  --theme-warning-800: #b36a00;
+  --theme-warning-900: #995b00;
+  /*warning*/
+
+  /*error*/
+  --theme-error-100: #f1979c;
+  --theme-error-200: #ee858c;
+  --theme-error-300: #ec747b;
+  --theme-error-400: #e9626b;
+  --theme-error: #e7515a;
+  --theme-error-600: #d04951;
+  --theme-error-700: #b94148;
+  --theme-error-800: #a2393f;
+  --theme-error-900: #8b3136;
+  /*error*/
+  /*COLORS*/
+
+  /*CONTENTS*/
+  --theme-base-content: #878a99;
+  --theme-header-content: #495057;
+  --theme-helper-content: #9ca3af;
+  --theme-placeholder-content: #b0b1b9;
+  --theme-primary-content: #ffffff;
+  --theme-secondary-content: #ffffff;
+  --theme-accent-content: #ffffff;
+  --theme-info-content: #ffffff;
+  --theme-success-content: #ffffff;
+  --theme-warning-content: #ffffff;
+  --theme-error-content: #ffffff;
+  /*CONTENTS*/
+
+  /*INPUTS*/
+  --theme-input-regular: '';
+  --theme-input-solid: '';
+  --theme-input-ghost: '';
+  --theme-input-focus: '';
+  --theme-input-success: '';
+  --theme-input-error: '';
+  /*INPUTS*/
+
+  /*TABLES*/
+  --theme-table-odd: '';
+  --theme-table-even: '';
+  --theme-table-hover: '';
+  --theme-table-active: '';
+  /*TABLES*/
+
+  /*ROUNDED*/
+  --theme-rounded-btn: 0.375rem;
+  --theme-rounded-box: 0.25rem;
+  --theme-rounded-badge: 0.5rem;
+  /*ROUNDED*/
+
+  /*--mantine-color-secondary-outline-hover: red!important;*/
+}
+
+[data-theme="light"] {
+  /*BASES*/
+  --theme-base-body: #f2f2f7;
+  --theme-base-box: #ffffff;
+  --theme-base-border: #e9ebec;
+  --theme-base-hover: #0000000C;
+  /*BASES*/
+
+  /*CONTENTS*/
+  --theme-base-content: #878a99;
+  --theme-header-content: #495057;
+  --theme-helper-content: #9ca3af;
+  --theme-placeholder-content: #b0b1b9;
+  /*CONTENTS*/
+}
+
+[data-theme="dark"] {
+  /*BASES*/
+  --theme-base-body: #1a1d21;
+  --theme-base-box: #212529;
+  --theme-base-border: #2a2f34;
+  --theme-base-hover: #30353b;
+  /*BASES*/
+
+  /*CONTENTS*/
+  --theme-base-content: #878a99;
+  --theme-header-content: #ced4da;
+  --theme-helper-content: #4b5563;
+  --theme-placeholder-content: #505867;
+  /*CONTENTS*/
+}
